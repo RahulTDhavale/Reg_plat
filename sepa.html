@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impact Analysis</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <div>
+        <h1 class="Main-heading"> Impact Analysis</h1>
+    </div>
+    <div class="container">
+        <div class="chart-section" id="chartSection">
+                <div class="slider">
+                    <div class="slide"><img src="pie-chart.png" alt="Image 1"></div>
+                    <div class="slide"><img src="bar-chart.png" alt="Image 2"></div>
+                </div>
+                <button class="prev" onclick="prevSlide()">❮</button>
+                <button class="next" onclick="nextSlide()">❯</button>
+        </div>
+        <div class="general-considerations">
+            <h4 class="general">GENERAL CONSIDERATIONS</h4>
+            <ul>
+                <li>Ensure data validation rules are implemented correctly for the new and existing fields focusing on:
+                    <ul>
+                        <li>Data Type Validation</li>
+                        <li>Length Validation</li>
+                        <li>Format Validation</li>
+                        <li>Conditional Validation</li>
+                    </ul>
+                </li>
+                <li>Combine Positive and Negative Testing with a Risk-Based Approach</li>
+                <li>Leverage tools specifically designed for ISO 20022 message testing. These tools often provide built-in validation rules and reporting capabilities, streamlining your testing process.</li>
+                <li>Generate Test Cases</li>
+                <li>Anti-Money Laundering System</li>
+            </ul>
+        </div>
+
+    </div>
+
+        <div class="button1">
+            <!-- <a href="comparison_report.xlsx" download="Impact Analysis Report">
+                <button id="iaReportBtn">IA Report</button>
+            </a> -->
+            
+            <button id="iaReportBtn">Detailed IA Report</button>
+            <button id="testCasesBtn">Test Cases</button>
+        </div>
+    <script src="script2.js"></script>
+    <script src="script3.js"></script>
+    <!-- <script src="script1.js"></script>  -->
+</body>
+</html>
+
